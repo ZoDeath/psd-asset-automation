@@ -1,4 +1,4 @@
-# RHV Art Asset Automation 아키텍처
+# PSD Asset Automation 아키텍처
 
 ## 실행 흐름
 
