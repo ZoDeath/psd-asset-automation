@@ -1,0 +1,125 @@
+* { box-sizing: border-box; }
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 320px;
+  color: #f5f5f5;
+  font: 13px/1.45 Arial, sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  padding: 12px;
+}
+
+h1 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  color: #cfcfcf;
+}
+
+p {
+  margin: 0 0 10px;
+  color: #b8d9ff;
+  overflow-wrap: anywhere;
+}
+
+button,
+input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  font: inherit;
+}
+
+button {
+  min-height: 34px;
+  padding: 8px;
+  margin: 0 0 8px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+select,
+input,
+textarea {
+  min-height: 30px;
+  margin-bottom: 10px;
+}
+
+pre {
+  width: 100%;
+  max-width: 100%;
+  max-height: 220px;
+  margin: 10px 0 0;
+  white-space: pre-wrap;
+  overflow: auto;
+  color: #d5d5d5;
+  overflow-wrap: anywhere;
+}
+
+/* Reusable layout for future cards and control groups. */
+.card-grid,
+.controls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.card,
+.control-group {
+  min-width: 0;
+  max-width: 100%;
+}
+
+@media (max-width: 359px) {
+  html,
+  body {
+    min-width: 0;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 15px;
+  }
+
+  .card-grid,
+  .controls-grid {
+    grid-template-columns: 1fr;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    width: 100%;
+  }
+}

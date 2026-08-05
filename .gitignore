@@ -1,0 +1,14 @@
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+
+# Locally installed vision dependencies
+mcp-server/vision-deps/
+
+# Photoshop source files
+*.psd
+
+# Artist photos
+assets/Photo/*
+!assets/Photo/.gitkeep

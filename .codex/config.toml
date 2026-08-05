@@ -1,0 +1,7 @@
+[mcp_servers.photoshop_ai]
+command = "node"
+args = ["dist/index.js"]
+cwd = 'D:\Project\Photoshop-AI-Platform\mcp-server'
+enabled = true
+enabled_tools = ["get_status", "get_active_document", "run_photoshop_command"]
+default_tools_approval_mode = "auto"

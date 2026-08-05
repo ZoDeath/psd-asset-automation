@@ -1,0 +1,10 @@
+{
+  "manifestVersion": 5,
+  "id": "com.photoshopai.psdinspector",
+  "name": "RHV Art Asset Automation",
+  "version": "0.2.0",
+  "main": "index.html",
+  "host": [{ "app": "PS", "minVersion": "25.0.0" }],
+  "entrypoints": [{ "type": "panel", "id": "psdInspector", "label": "RHV Art Asset Automation", "minimumSize": { "width": 220, "height": 360 }, "maximumSize": { "width": 1000, "height": 1200 }, "preferredDockedSize": { "width": 240, "height": 620 }, "preferredFloatingSize": { "width": 280, "height": 680 } }],
+  "requiredPermissions": { "network": { "domains": "all" }, "localFileSystem": "request" }
+}
