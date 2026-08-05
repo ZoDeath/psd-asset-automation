@@ -12,3 +12,7 @@ mcp-server/vision-deps/
 # Artist photos
 assets/Photo/*
 !assets/Photo/.gitkeep
+
+# Local project instructions and brief
+/AGENTS.md
+/PROJECT_BRIEF.md
