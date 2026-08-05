@@ -1,6 +1,6 @@
 # PSD Asset Automation
 
-Photoshop 2024 UXP 패널, Codex MCP 서버, 로컬 Python 얼굴 분석기를 연결해 RHV 카드·컨셉포토 제작을 자동화하는 프로젝트다.
+Photoshop 2024 UXP 패널, Codex MCP 서버, 로컬 Python 얼굴 분석기를 연결해 제작을 자동화하는 프로젝트다.
 
 ## 구성
 
